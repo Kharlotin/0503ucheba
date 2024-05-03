@@ -1,13 +1,13 @@
 from 2modul.pypro import a
 n = a
-if n>0 and n<13:
-    if n<3 or n==12:
+if n>0 and n<13:        # Операторы сравнения должны быть окружены пробелами
+    if n<3 or n==12:        # Операторы сравнения должны быть окружены пробелами
         print("Winter")
-    elif n>=3 or n<6:
+    elif n>=3 or n<6:        # Операторы сравнения должны быть окружены пробелами
         print("Vesna")
-    elif n>=6 or n<9:
+    elif n>=6 or n<9:        # Операторы сравнения должны быть окружены пробелами
         print("Leto")
-    elif n>3 or n<6:
+    elif n>3 or n<6:        # Операторы сравнения должны быть окружены пробелами
         print("Osen")
 else:
     print("error")
