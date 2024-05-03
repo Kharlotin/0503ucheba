@@ -1,4 +1,5 @@
-n = int(input("номер мес€ца"))
+from 2modul.pypro import a
+n = a
 if n>0 and n<13:
     if n<3 or n==12:
         print("Winter")
